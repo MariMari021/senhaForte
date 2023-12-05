@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToSave</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/a2288264db.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="dividir">
+            <p>ToSave</p>
+        </div>
+
+    </header>
+    <main>
+        <div class="tudo">
+            <div class="conteudo">
+                <div class="form">
+                    <h2><span>Crie uma senha forte</span> <br>senão pequenos seres irão possuir seus dados!</h2>
+                    <div class="senha">
+                        <input type="password" id="entradaSenha" placeholder="Digite sua senha">
+                        <span id="mostrarSenha">Mostrar</span>
+                    </div>
+                    <div id="medidorTudo">
+                        <div id="medidorPoder"></div>
+                    </div>
+                </div>
+
+                <div class="seta" onclick="abrirRequisitos()">
+                    <h3>Ver requisitos</h3>
+                    <i class="fa-solid fa-caret-right"></i>
+                </div>
+
+                <div id="requisitos">
+                    <div id="requisitoComprimento" class="requisito">Comprimento</div>
+                    <div id="requisitoMinusculo" class="requisito">Letra minúscula</div>
+                    <div id="requisitoMaiusculo" class="requisito">Letra maiúscula</div>
+                    <div id="requisitoNumero" class="requisito">Número</div>
+                    <div id="requisitoSimbolo" class="requisito">Símbolo</div>
+                </div>
+
+                <div id="textoPoder"></div>
+            </div>
+            <div class="img">
+                <img src="gif.gif" alt="">
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>@Copyright of ToSave</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

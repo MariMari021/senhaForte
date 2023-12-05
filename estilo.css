@@ -1,0 +1,199 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'raleway';
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'raleway-italico';
+    src: url(Raleway-Italic-VariableFont_wght.ttf);
+}
+
+main {
+    /* display: grid;
+    justify-content: center;
+    align-items: center; */
+    padding: 5vw 0;
+    background-color: #000;
+}
+
+.conteudo {
+    width: 82vw;
+    padding-top: 1vw;
+}
+
+.tudo {
+    display: flex;
+    padding-left: 7vw;
+    padding-top: 34px;
+}
+
+
+header {
+    background-color: #fff;
+    height: 58px;
+}
+
+.dividir {
+    padding: 16px 0px;
+    margin: 0px 124px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'raleway';
+    font-weight: 500;
+    font-size: 21px;
+    color: #5c5a5a;
+}
+
+.login-img {
+    width: 27px;
+}
+
+#entradaSenha {
+    width: 402px;
+    margin: 20px;
+    padding: 12px 10px;
+    font-size: 16px;
+    border: 1.5px solid #d37e1994;
+    border-radius: 15px;
+    box-shadow: 4px 4px #d37419;
+}
+
+#medidorPoder {
+    margin-top: 10px;
+    height: 20px;
+    width: 0;
+    background-color: gray;
+    transition: width 0.3s, background-color 0.3s;
+    border-radius: 15px;
+}
+
+#medidorTudo {
+    width: 544px;
+    padding-left: 20px;
+    padding-bottom: 12px;
+}
+
+.senha {
+    padding-top: 28px;
+}
+
+#requisitos {
+    width: 68.3%;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    transition-property: translate, opacity, visibility;
+    transition-duration: 0.5s;
+    translate: -100% 0;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 23px; 
+}
+
+.requisito {
+    border-radius: 10px;
+    border: 1px gray solid;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px 22px;
+    margin: 0 16px 0 0;
+    box-shadow: 4px 4px #d37e19;
+    background: #fff;
+    width: 227px;
+    text-align: center;
+}
+
+.vermelho {
+    color: red;
+    transition: color 0.3s;
+}
+
+.verde {
+    color: green;
+    transition: color 0.3s;
+}
+
+#textoPoder {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 23px;
+}
+
+
+#mostrarSenha {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #d37e19;
+    padding: 11px 25px;
+    border-radius: 12px;
+    box-shadow: 4px 4px black;
+}
+
+#login {
+    display: grid;
+
+}
+
+body.open #requisitos {
+    opacity: 1;
+    visibility: visible;
+    translate: 0 0;
+}
+
+.seta {
+    padding: 0 19px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.seta h3 {
+    color: #d37e19;
+}
+
+.form h2{
+    color: #fff;
+    font-weight: 500;
+    padding-left: 1.3vw;
+}
+
+.form h2 span {
+    color: #d37e19;
+}
+
+.fa-solid,
+.fas {
+    font-size: 29px;
+    padding-left: 5px;
+}
+
+.img {
+    position: relative;
+    right: 25vw;
+    bottom: 2vw;
+}
+
+.img img {
+    width: 550px;
+    border-radius: 283px;
+}
+
+footer {
+    display: grid;
+    height: 53px;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+
+}
